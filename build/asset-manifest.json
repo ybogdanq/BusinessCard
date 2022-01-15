@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e28edfa5.css",
+    "main.js": "/static/js/main.01498117.js",
+    "static/media/moviesapp-preview.png": "/static/media/moviesapp-preview.09d7a07073e3d396f81a.png",
+    "static/media/edmate-preview.png": "/static/media/edmate-preview.d97c017c2eafe0790d99.png",
+    "static/media/subsapp-preview.png": "/static/media/subsapp-preview.15cfa664926e4cfe8f38.png",
+    "static/media/weatherapp-preview.png": "/static/media/weatherapp-preview.ff08e7bcb93443aeff4e.png",
+    "index.html": "/index.html",
+    "main.e28edfa5.css.map": "/static/css/main.e28edfa5.css.map",
+    "main.01498117.js.map": "/static/js/main.01498117.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e28edfa5.css",
+    "static/js/main.01498117.js"
+  ]
+}
