@@ -1,0 +1,148 @@
+article section{
+  margin-bottom: 2rem;
+}
+
+.resume-contentside{
+  flex: 0 1 75%;
+}
+.resume-sidebar{
+  flex: 0 0 25%;
+}
+
+.resume-contentside p{
+  max-width: 70%;
+}
+
+.resume-info__section{
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.resume-info__section .title{
+  font-size: 1.2em;
+  line-height: 1.8rem;
+  font-weight: 600;
+  margin: 0 !important;
+  color: #4831d4;
+}
+
+.resume-info__section ul {
+  list-style: none;
+}
+
+.resume-info__section li {
+  font-size: 1.1rem;
+  padding-left: 10px;
+  line-height: 1.8rem;
+  color: rgba(71, 71, 71, 0.75);
+  position: relative;
+}
+
+article section .heading{
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  margin: 0 0 1.15em!important;
+  font-size: 1.424em;
+  color: #4831d4;
+}
+
+article section .heading::after{
+  content: "";
+  background: #ccf381;
+  height: 0.4em;
+  width: 109%;
+  display: block;
+  margin-top: -0.6rem;
+  margin-left: -4%;
+  position: absolute;
+  z-index: -1;
+}
+
+article p{
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+}
+
+.resume-info__section li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: rgba(71, 71, 71, 0.75);
+}
+
+.resume-info__section:last-child{
+  margin-bottom: 0;
+}
+
+.name{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 4.2rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #4831d4 ;
+}
+
+.profile-summary {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.profile-summary::after{
+  content: "";
+  display: block;
+  margin-left: -10%;
+  bottom: 0;
+  left: 0;
+  background-color: #cbc9dd;
+  height: 1px;
+  width: 120%;
+}
+
+.profile-summary h2{
+  margin: 0;
+  font-weight: 300;
+}
+
+.profile-summary p{
+  margin: 3em 0 2em;
+}
+
+.experience span{
+  color: #4831d4;
+  font-weight: 600;
+}
+
+.education h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  color: rgba(71, 71, 71, 0.75);
+}
+
+.education h2 span{
+  font-size: 1rem;
+}
+
+.projects-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.75rem;
+}
+
+.project-showcase__item{
+  aspect-ratio: 9/5;
+  position: relative;
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
+
+.project-showcase__item:hover{
+  transform: scale(1.02);
+}

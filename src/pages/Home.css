@@ -1,0 +1,45 @@
+.developer__name{
+  position: relative;
+  color: #333;
+  line-height: 1.2em;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 1;
+}
+.developer__name.animate::after{
+  width: 109%;
+  left: -1%;
+}
+.developer__name::after{
+  content: "";
+  background: #ccf381;
+  height: 0.4em;
+  width: 0%;
+  display: block;
+  margin-top: -0.45em;
+  margin-left: -4%;
+  position: absolute;
+  right: -4%;
+  z-index: -1;
+  transition: width 0.5s ease-in-out;
+}
+
+.subtext{
+  color: #70b313;
+  margin: 12px 0px 30px;
+  font-size: 0.85em;
+  font-weight: 400;
+  letter-spacing: .12em;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}

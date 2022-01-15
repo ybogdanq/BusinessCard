@@ -1,0 +1,12 @@
+.contact__list li::before{
+  display: none !important;
+}
+.contact__list li{
+  padding-left: 0 !important;
+  line-height: 1.4rem !important;
+}
+.contact__list li a{
+
+  font-size: .9rem;
+  margin: 0 0px 0.25rem;
+}

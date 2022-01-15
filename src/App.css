@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  width: 100%;
+  position: relative;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-size: 19.2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-size: inherit;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  line-height: inherit;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+h1, h2, h3, h4, h5, h6{
+  color: #474747;
+  transition: color .6s;
+  margin: 2.75rem 0 1rem;
+  font-weight: 700;
+  line-height: 1.05;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p{
+  color: rgba(71, 71, 71, 0.75);
+}
+
+main {
+  max-width: unset;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 6.7rem 3.2rem;
+  margin: calc(3.5rem * 1.2) 7vw;
+  background-color: #f5f4fc;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.styled__link{
+  position: relative;
+  z-index: 10;
+  text-decoration: none;
+  color: #4831d4;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  transition: all 0.5s ease;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.styled__link:hover{
+  color: rgb(91, 69, 228);
+}
+.styled__link:hover::after{
+  height: 0.2em;
+}
+.styled__link::after{
+bottom: 0;
+  content: "";
+  background: #ccf381;
+  height: 0.4em;
+  width: 104%;
+  display: block;
+  margin-left: -2%;
+  position: absolute;
+  bottom: .12em;
+  z-index: -1;
+  transition: height 0.5s ease;
 }
