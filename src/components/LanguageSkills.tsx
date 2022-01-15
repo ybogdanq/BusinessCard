@@ -3,7 +3,7 @@ import React from "react";
 const LanguageSkills: React.FC = () => {
   return (
     <section className="resume-info__section">
-      <h3 className="title">Core technologies:</h3>
+      <h3 className="title">Language Skills:</h3>
       <ul>
         <li>Ukrainian</li>
         <li>Russian</li>

@@ -10,11 +10,13 @@ const ProjectsSection: React.FC = () => {
         {projectsCollection.length &&
           projectsCollection.map((proj, index) => (
             <div key={index} className="project-showcase__item">
-              <ProjectShowcase
-                projectName={proj.projectName}
-                technologiesIcons={proj.technologiesIcons}
-                backgroundPath={proj.backgroundPath}
-              />
+              <a href={"https://ybogdanq.github.io/" + proj.projectName}>
+                <ProjectShowcase
+                  projectName={proj.projectName}
+                  technologiesIcons={proj.technologiesIcons}
+                  backgroundPath={proj.backgroundPath}
+                />
+              </a>
             </div>
           ))}
       </div>

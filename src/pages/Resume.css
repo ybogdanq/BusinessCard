@@ -1,5 +1,8 @@
 article section{
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+article section:last-child{
+  margin-bottom: 0;
 }
 
 .resume-contentside{
@@ -42,7 +45,7 @@ article section .heading{
   position: relative;
   display: inline-block;
   z-index: 0;
-  margin: 0 0 1.15em!important;
+  margin: 0 0 1em!important;
   font-size: 1.424em;
   color: #4831d4;
 }
@@ -115,13 +118,15 @@ article p{
 }
 
 .experience span{
-  color: #4831d4;
-  font-weight: 600;
+  /* text-decoration: underline; */
+  font-weight: 400;
 }
+
 
 .education h2 {
   margin: 0;
   font-size: 1.6rem;
+  font-weight: 400;
   line-height: 1.7rem;
   color: rgba(71, 71, 71, 0.75);
 }
@@ -131,6 +136,7 @@ article p{
 }
 
 .projects-wrapper{
+  max-width: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0.75rem;

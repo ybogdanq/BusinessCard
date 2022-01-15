@@ -16,7 +16,7 @@ export const projectsCollection = [
     technologiesIcons: [faCss3, faJs, faVuejs, faGithub],
   },
   {
-    projectName: "EdMate",
+    projectName: "edMate",
     backgroundPath: projectsBGs.edMate,
     technologiesIcons: [faSass, faBootstrap, faJs, faGithub],
   },
