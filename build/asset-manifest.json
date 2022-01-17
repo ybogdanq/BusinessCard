@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e28edfa5.css",
-    "main.js": "/static/js/main.01498117.js",
-    "static/media/moviesapp-preview.png": "/static/media/moviesapp-preview.09d7a07073e3d396f81a.png",
-    "static/media/edmate-preview.png": "/static/media/edmate-preview.d97c017c2eafe0790d99.png",
-    "static/media/subsapp-preview.png": "/static/media/subsapp-preview.15cfa664926e4cfe8f38.png",
-    "static/media/weatherapp-preview.png": "/static/media/weatherapp-preview.ff08e7bcb93443aeff4e.png",
-    "index.html": "/index.html",
-    "main.e28edfa5.css.map": "/static/css/main.e28edfa5.css.map",
-    "main.01498117.js.map": "/static/js/main.01498117.js.map"
+    "main.css": "/BusinessCard/static/css/main.249fd095.css",
+    "main.js": "/BusinessCard/static/js/main.9c27a1b2.js",
+    "static/media/moviesapp-preview.webp": "/BusinessCard/static/media/moviesapp-preview.1c6b8ff527a8dc6d2ab4.webp",
+    "static/media/edmate-preview.webp": "/BusinessCard/static/media/edmate-preview.2d912d721e0cdb70e148.webp",
+    "static/media/weatherapp-preview.webp": "/BusinessCard/static/media/weatherapp-preview.8e8fcb1cd9eb4d50c895.webp",
+    "static/media/subsapp-preview.webp": "/BusinessCard/static/media/subsapp-preview.03552f7fcc874d7f61b4.webp",
+    "index.html": "/BusinessCard/index.html",
+    "main.249fd095.css.map": "/BusinessCard/static/css/main.249fd095.css.map",
+    "main.9c27a1b2.js.map": "/BusinessCard/static/js/main.9c27a1b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e28edfa5.css",
-    "static/js/main.01498117.js"
+    "static/css/main.249fd095.css",
+    "static/js/main.9c27a1b2.js"
   ]
 }
