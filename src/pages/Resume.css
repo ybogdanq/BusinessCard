@@ -300,20 +300,21 @@ article p{
 }
 
 @media screen and (max-width: 768px) {
+  .resume-contentside{
+    padding-left: 0;
+  }
   .contact-info{
     display: none;
   }
   .resume-sidebar{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1.5rem;
     flex-wrap: wrap;
   }
   .resume-info__section{
     padding: 0px 10px;
-  }
-  .resume-info__section .title{
-    font-size: .9em;
-    line-height: 1.5rem;
+    margin-bottom: 1rem;
   }
   .resume-info__section li {
     display: inline;
@@ -337,41 +338,108 @@ article p{
   .profile-summary {
     margin-bottom: 3.2rem;
   }
-  .profile-summary::after{
-    margin-left: -8%;
+  .profile-summary::after {
+    margin-left: 0%;
     height: 1px;
-    width: 118%;
-  }
-  .name{
-    font-size: 3.2rem;
-  }
-  .profile-summary h2{
-    font-size: 1.15rem;
-  }
-  .profile-summary p{
-    margin: 2em 0 1.5em;
+    width: 100%;
   }
   article p{
     font-weight: 300;
     font-size: .85rem;
-    line-height: 1.45rem;
+    line-height: 1.35rem;
   }
   article section .heading{
     margin: 0 0 0.85em!important;
-    font-size: 1.1em;
-  }
-  article section .heading::after{
-    height: 0.4em;
-    width: 108%;
-    margin-top: -0.37rem;
-    margin-left: -4%;
+    font-size: 1em;
   }
   .education h2 {
     font-size: 1rem;
-    line-height: 1.4rem;
   }
   .projects-wrapper {
     max-width: 95%;
     grid-gap: 0.55rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .resume-contentside{
+    padding-left: 0;
+  }
+  .resume-contentside p {
+    min-width: 95%;
+}
+  .resume-sidebar{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .resume-info__section{
+    padding: 0px 0px;
+    margin-bottom: 1rem;
+  }
+  .resume-info__section li {
+    display: inline;
+    font-size: .65rem;
+    padding-left: 0;
+    margin-right: 5px;
+    line-height: 1.3rem;
+  }
+  .resume-info__section li::before {
+    display: none;
+  }
+  .resume-info__section li::after {
+    content: ",";
+  }
+  .resume-info__section li:last-child:after {
+    content: ".";
+  }
+  .resume-info__section .title{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  article section {
+    margin-bottom: 2rem;
+  }
+  .profile-summary {
+    margin-bottom: 2rem;
+  }
+  .profile-summary p{
+    margin-bottom: 1.5rem;
+  }
+  .profile-summary h2{
+    font-size: .9rem;
+  }
+  .name{
+    font-size: 2.2rem;
+  }
+  article p{
+    font-weight: 300;
+    font-size: .72rem;
+    line-height: 1.25rem;
+  }
+  article section .heading{
+    margin: 0 0 0.75em!important;
+    font-size: .9em;
+  }
+  .education h2 {
+    font-size: 0.8rem;
+  }
+  .education h2 span{
+    font-size: 0.6rem;
+  }
+  .projects-wrapper {
+    max-width: 100%;
+
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .name{
+    font-size: 2rem;
+  }
+  .education h2 {
+    font-size: .67rem;
+    line-height: 1.2rem;
   }
 }

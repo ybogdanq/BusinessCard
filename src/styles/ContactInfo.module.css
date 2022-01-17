@@ -41,3 +41,13 @@
     margin: 0 0px 0.25rem;
   }
 }
+@media screen and (max-width: 550px) {
+  .contact__list li{
+    padding-left: 0 !important;
+    line-height: .8rem !important;
+  }
+  .contact__list li a{
+    font-size: .75rem;
+    margin: 0 0px 0.25rem;
+  }
+}
