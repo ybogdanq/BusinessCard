@@ -10,3 +10,34 @@
   font-size: .9rem;
   margin: 0 0px 0.25rem;
 }
+
+@media screen and (max-width: 1500px) {
+  .contact__list li{
+    padding-left: 0 !important;
+    line-height: 1.15rem !important;
+  }
+  .contact__list li a{
+    font-size: .75rem;
+    margin: 0 0px 0.25rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contact__list li{
+    padding-left: 0 !important;
+    line-height: 1.15rem !important;
+  }
+  .contact__list li a{
+    font-size: .75rem;
+    margin: 0 0px 0.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact__list li{
+    padding-left: 0 !important;
+    line-height: 1.15rem !important;
+  }
+  .contact__list li a{
+    font-size: .75rem;
+    margin: 0 0px 0.25rem;
+  }
+}

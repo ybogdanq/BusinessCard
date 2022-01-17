@@ -1,7 +1,7 @@
-import edMate from "./edmate-preview.png";
-import weatherApp from "./weatherapp-preview.png";
-import moviesApp from "./moviesapp-preview.png";
-import subsApp from "./subsapp-preview.png";
+import edMate from "./edmate-preview.webp";
+import weatherApp from "./weatherapp-preview.webp";
+import moviesApp from "./moviesapp-preview.webp";
+import subsApp from "./subsapp-preview.webp";
 
 export const projectsBGs = {
   edMate,

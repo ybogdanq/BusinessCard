@@ -4,7 +4,7 @@ import cl from "../styles/ContactInfo.module.css";
 
 const ContactInfo: React.FC = () => {
   return (
-    <section className="resume-info__section">
+    <section className="resume-info__section contact-info">
       <ul className={cl.contact__list}>
         <li>
           <Link to="/home" className="styled__link">

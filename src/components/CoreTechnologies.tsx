@@ -12,6 +12,7 @@ const CoreTechnologies: React.FC = () => {
         <li>CSS-in-JS</li>
         <li>Sass</li>
         <li>Webpack</li>
+        <li>Jest</li>
       </ul>
     </section>
   );
