@@ -127,6 +127,7 @@ bottom: 0;
     padding: 4rem 1.3rem;
     flex-direction: column;
   }
+  
 }
 @media screen and (max-width: 550px){
   main {

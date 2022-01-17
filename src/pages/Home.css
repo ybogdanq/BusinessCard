@@ -8,6 +8,7 @@
   text-transform: uppercase;
   text-align: center;
   z-index: 1;
+  margin: 0 0 0.6rem !important;
 }
 .developer__name.animate::after{
   width: 109%;
@@ -33,6 +34,7 @@
   font-size: 0.85em;
   font-weight: 400;
   letter-spacing: .12em;
+  margin: 0 0 1.7rem !important;
 }
 
 .wrapper{
@@ -42,4 +44,45 @@
   justify-content: center;
   min-height: 100vh;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+@media screen and (max-width: 765px) {
+  .developer__name{
+    line-height: 1em;
+    letter-spacing: 4px;
+    font-size: 1.7em;
+    margin: 0 0 0.67rem !important;
+  }
+
+  .developer__name::after{
+    height: 0.35em;
+    margin-top: -2.6%;
+  }
+
+  .subtext{
+    margin: 12px 0px 25px;
+    font-size: 0.75em;
+    letter-spacing: .1em;
+    margin: 0 0 1.2rem !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .developer__name{
+    line-height: 0.9em;
+    letter-spacing: 3.5px;
+    font-size: 1.4em;
+    margin: 0 0 0.55rem !important;
+  }
+
+  .developer__name::after{
+    height: 0.35em;
+    margin-top: -2.6%;
+  }
+
+  .subtext{
+    margin: 12px 0px 20px;
+    font-size: 0.65em;
+    letter-spacing: .09em;
+    margin: 0 0 1.2rem !important;
+  }
 }

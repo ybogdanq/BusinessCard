@@ -30,3 +30,22 @@
   z-index: -1;
   transition: width 0.5s ease;
 }
+
+@media screen and (max-width: 768px) {
+  .link a{
+    margin: 0px 0px 6px;
+    font-size: 0.65em;
+    letter-spacing: 0.07em;
+  }
+  .link a::after{
+    height: 0.4em;
+    margin-top: -5.5%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .link a{
+    margin: 0px 0px 4px;
+    font-size: 0.62em;
+    letter-spacing: 0.05em;
+  }
+}
