@@ -7,9 +7,15 @@ import {
   faVuejs,
   faCss3,
   faBootstrap,
+  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
 export const projectsCollection = [
+  {
+    projectName: "WeatherApp-R",
+    backgroundPath: projectsBGs.weatherApp,
+    technologiesIcons: [faSass, faJs, faReact, faGithub],
+  },
   {
     projectName: "MoviesApp",
     backgroundPath: projectsBGs.moviesApp,
@@ -19,11 +25,6 @@ export const projectsCollection = [
     projectName: "edMate",
     backgroundPath: projectsBGs.edMate,
     technologiesIcons: [faSass, faBootstrap, faJs, faGithub],
-  },
-  {
-    projectName: "WeatherApp",
-    backgroundPath: projectsBGs.weatherApp,
-    technologiesIcons: [faCss3, faJs, faVuejs, faGithub],
   },
   {
     projectName: "SubsApp",
