@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BusinessCard/home/static/css/main.da93bc93.css",
-    "main.js": "/BusinessCard/home/static/js/main.0cbc5664.js",
+    "main.js": "/BusinessCard/home/static/js/main.4d8b617b.js",
     "static/media/moviesapp-preview.webp": "/BusinessCard/home/static/media/moviesapp-preview.1c6b8ff527a8dc6d2ab4.webp",
     "static/media/edmate-preview.webp": "/BusinessCard/home/static/media/edmate-preview.2d912d721e0cdb70e148.webp",
     "static/media/koibird-preview.webp": "/BusinessCard/home/static/media/koibird-preview.e2eb6411900fb1a456ff.webp",
@@ -9,10 +9,10 @@
     "static/media/subsapp-preview.webp": "/BusinessCard/home/static/media/subsapp-preview.03552f7fcc874d7f61b4.webp",
     "index.html": "/BusinessCard/home/index.html",
     "main.da93bc93.css.map": "/BusinessCard/home/static/css/main.da93bc93.css.map",
-    "main.0cbc5664.js.map": "/BusinessCard/home/static/js/main.0cbc5664.js.map"
+    "main.4d8b617b.js.map": "/BusinessCard/home/static/js/main.4d8b617b.js.map"
   },
   "entrypoints": [
     "static/css/main.da93bc93.css",
-    "static/js/main.0cbc5664.js"
+    "static/js/main.4d8b617b.js"
   ]
 }
