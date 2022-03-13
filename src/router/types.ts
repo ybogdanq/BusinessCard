@@ -6,6 +6,6 @@ export interface IRouter {
 }
 
 export enum RouteNames {
-  Home = "/home",
-  Resume = "/resume",
+  Home = "/BusinessCard/home",
+  Resume = "/BusinessCard/resume",
 }

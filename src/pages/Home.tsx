@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   const [animateName, setAnimateName] = useState(false);
 
   useEffect(() => {
-    navigate("/home");
+    navigate("/BusinessCard");
     setAnimateName(true);
     setTimeout(() => {
       setAnimateName(false);

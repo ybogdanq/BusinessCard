@@ -122,6 +122,11 @@ article p{
   font-weight: 400;
 }
 
+.project-showcase__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .education h2 {
   margin: 0;
@@ -139,18 +144,7 @@ article p{
   max-width: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 0.75rem;
-}
-
-.project-showcase__item{
-  aspect-ratio: 9/5;
-  position: relative;
-  transition: all 0.5s ease;
-  transform: scale(1);
-}
-
-.project-showcase__item:hover{
-  transform: scale(1.02);
+  grid-gap: 15px;
 }
 
 @media screen and (max-width: 1650px) {

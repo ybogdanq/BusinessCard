@@ -8,6 +8,7 @@ import {
   faCss3,
   faBootstrap,
   faReact,
+  faGulp,
 } from "@fortawesome/free-brands-svg-icons";
 
 export const projectsCollection = [
@@ -22,13 +23,18 @@ export const projectsCollection = [
     technologiesIcons: [faCss3, faJs, faVuejs, faGithub],
   },
   {
-    projectName: "edMate",
-    backgroundPath: projectsBGs.edMate,
-    technologiesIcons: [faSass, faBootstrap, faJs, faGithub],
+    projectName: "Koibird",
+    backgroundPath: projectsBGs.koibird,
+    technologiesIcons: [faSass, faGulp, faJs, faGithub],
   },
   {
     projectName: "SubsApp",
     backgroundPath: projectsBGs.subsApp,
     technologiesIcons: [faCss3, faJs, faVuejs, faGithub],
+  },
+  {
+    projectName: "edMate",
+    backgroundPath: projectsBGs.edMate,
+    technologiesIcons: [faSass, faBootstrap, faJs, faGithub],
   },
 ] as ProjectShowcaseTypes[];

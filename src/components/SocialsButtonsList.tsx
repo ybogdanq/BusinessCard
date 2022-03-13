@@ -1,4 +1,5 @@
 import React from "react";
+import { RouteNames } from "../router/types";
 import { Link } from "react-router-dom";
 import cl from "../styles/SocialsButtonList.module.css";
 
@@ -18,7 +19,7 @@ const SocialsButtonsList: React.FC = () => {
         <a href="https://t.me/ybogdanq">Telegram</a>
       </li>
       <li className={cl.link}>
-        <Link to="/resume">My Résumé</Link>
+        <Link to={RouteNames.Resume}>My Résumé</Link>
       </li>
     </ul>
   );
